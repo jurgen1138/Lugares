@@ -12,7 +12,7 @@ abstract class LugarDatabase: RoomDatabase() {
     companion object {
         @Volatile
         private var INSTANCE: LugarDatabase? = null
-
+        //Fucion para obtener datos
         fun getDatabase(context: android.content.Context) : LugarDatabase {
             val tempInstance = INSTANCE
             if (tempInstance != null){

@@ -11,19 +11,18 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20px"
         android:text="@string/tv_correo"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/et_correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,7 +30,7 @@
         android:layout_height="wrap_content"
         android:text="@string/tv_clave"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/et_clave"
@@ -40,22 +39,22 @@
         android:ems="10"
         android:inputType="textPassword"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textSize="24sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/btn_register"
+            android:id="@+id/bt_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_register" />
 
         <ImageButton
-            android:id="@+id/btn_login"
+            android:id="@+id/bt_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

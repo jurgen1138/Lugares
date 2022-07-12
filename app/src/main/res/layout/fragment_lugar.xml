@@ -16,7 +16,7 @@
         android:src="@android:drawable/ic_input_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
+    //Layout create
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/reciclador"
         android:layout_width="0dp"

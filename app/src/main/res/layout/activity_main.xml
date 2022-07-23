@@ -14,7 +14,7 @@
         android:text="@string/tv_correo"
         android:textAlignment="center"
         android:textSize="24sp" />
-
+    //Schemas and resources
     <EditText
         android:id="@+id/et_correo"
         android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.lugar.LugarFragment">
-
+    //Schemas and resources
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addLugar"
         android:layout_width="wrap_content"
